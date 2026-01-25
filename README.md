@@ -32,7 +32,7 @@ Silnik VEXTRINEP operuje na zestawie nienaruszalnych zasad (Core Logic):
 1.  **Topologia Zamknięta:** Wszystkie figury muszą tworzyć zamknięty obwód.
 2.  **Zero Gap / Tangram Tiling:** Figury mogą idealnie współdzielić krawędzie, ale nigdy nie naruszają swoich wnętrz.
 3.  **Strict Convexity:** System akceptuje wyłącznie figury wypukłe (trójkąty, czworokąty). Wklęsłości są odrzucane na etapie pre-walidacji.
-4.  **Anti-BigBrother Protocol:** Zabezpieczenie przed "połknięciem" mniejszej figury przez większą bez naruszenia krawędzi.
+4.  **Anti-BigBrother Protocol:** Zabezpieczenie przed całkowitym zasłonięciem innej figury oraz eliminacja wszelkich form częściowego przykrywania lub nakładania się obiektów (overlapping).
 5.  **Epsilon Precision:** Wszystkie kolizje i styki obliczane są z tolerancją błędu `EPSILON = 0.00001`.
 
 ## 📦 Status
