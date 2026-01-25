@@ -1,5 +1,4 @@
 # VEXTRINEP
-# VEXTRINEP
 
 > **Strict Geometric Composition Engine**
 
